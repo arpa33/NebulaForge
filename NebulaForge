@@ -1,0 +1,49 @@
+NBF-7XQ9-K2LM-2026
+NBF-AURORA-8P4XJ
+NBF-COSMOS-V7N2Q
+NBF-ORBIT-5KZ9M
+NBF-QUANTUM-X4R8D
+nebulaforge-core
+# NebulaForge 🚀
+
+NebulaForge is a lightweight and scalable framework designed to accelerate the development of decentralized and AI-powered applications.
+
+## Features
+
+- Fast and modular architecture
+- Secure API integration
+- Easy deployment
+- Open-source and community-driven
+
+## Installation
+
+```bash
+git clone https://github.com/yourusername/nebulaforge.git
+cd nebulaforge
+npm install
+npm start
+
+### فایل index.js
+
+```javascript
+class NebulaForge {
+  constructor(name) {
+    this.name = name;
+  }
+
+  initialize() {
+    console.log(`🚀 ${this.name} initialized successfully.`);
+  }
+
+  getStatus() {
+    return {
+      project: this.name,
+      status: "active",
+      version: "1.0.0"
+    };
+  }
+}
+
+const app = new NebulaForge("NebulaForge");
+app.initialize();
+console.log(app.getStatus());
