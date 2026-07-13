@@ -44,6 +44,11 @@ class NebulaForge {
   }
 }
 
+```javascript
+class NebulaForge {
+  constructor(name) {
+    this.name = name;
+  }
 const app = new NebulaForge("NebulaForge");
 app.initialize();
 console.log(app.getStatus());
