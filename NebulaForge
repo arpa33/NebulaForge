@@ -8,15 +8,6 @@ nebulaforge-core
 
 NebulaForge is a lightweight and scalable framework designed to accelerate the development of decentralized and AI-powered applications.
 
-## Features
-
-- Fast and modular architecture
-- Secure API integration
-- Easy deployment
-- Open-source and community-driven
-
-## Installation
-
 ```bash
 git clone https://github.com/yourusername/nebulaforge.git
 cd nebulaforge
@@ -44,10 +35,14 @@ class NebulaForge {
   }
 }
 
-```javascript
-class NebulaForge {
-  constructor(name) {
-    this.name = name;
+## Features
+
+- Fast and modular architecture
+- Secure API integration
+- Easy deployment
+- Open-source and community-driven
+
+## Installation
   }
 const app = new NebulaForge("NebulaForge");
 app.initialize();
