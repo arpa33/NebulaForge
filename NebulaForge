@@ -5,7 +5,11 @@ NBF-ORBIT-5KZ9M
 NBF-QUANTUM-X4R8D
 nebulaforge-core
 # NebulaForge 🚀
+ initialize() {
+    console.log(`🚀 ${this.name} initialized successfully.`);
+  }
 
+  getStatus() {
 NebulaForge is a lightweight and scalable framework designed to accelerate the development of decentralized and AI-powered applications.
 
 ```bash
@@ -22,11 +26,7 @@ class NebulaForge {
     this.name = name;
   }
 
-  initialize() {
-    console.log(`🚀 ${this.name} initialized successfully.`);
-  }
-
-  getStatus() {
+ 
     return {
       project: this.name,
       status: "active",
