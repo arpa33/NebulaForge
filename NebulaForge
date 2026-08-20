@@ -20,13 +20,6 @@ npm start
 
 ### فایل index.js
 
-```javascript
-class NebulaForge {
-  constructor(name) {
-    this.name = name;
-  }
-
- 
     return {
       project: this.name,
       status: "active",
@@ -44,6 +37,11 @@ class NebulaForge {
 
 ## Installation
   }
-const app = new NebulaForge("NebulaForge");
-app.initialize();
-console.log(app.getStatus());
+
+```javascript
+class NebulaForge {
+  constructor(name) {
+    this.name = name;
+  }
+
+ 
